@@ -1,4 +1,4 @@
-## Dodo backend assignment
+### Payment Service Backend 
 
 A payment service implementation built with Rust, featuring user management, transaction processing, and account balance tracking. This service provides a RESTful API using the Actix web framework with PostgreSQL as the database backend.
 
@@ -40,12 +40,13 @@ src/
 ├── util.rs           # Utility functions and error handling
 └── main.rs           # Application entry point
 ```
-:
+
 ### Prerequisites
 
 - Rust : Install using rustup and/or checkout [documentation](https://www.rust-lang.org/tools/install)
 - PostgreSQL : Download from [here](https://www.postgresql.org/download/)
 - Docker (optional) : Download from [here](https://www.docker.com/products/docker-desktop/)
+- sea-orm-cli : Install using `cargo install sea-orm-cli@1.1.0`
 
 ### Getting Started
 
@@ -107,7 +108,7 @@ The service exposes the following API endpoints:
 ### Documentation
 This repo support `rustdocs` and documentation can be generated with:
 ```bash
-cargo doc --no-deps --open
+cargo doc
 ```
 
 ### Code Formatting
@@ -115,6 +116,3 @@ Format your code with:
 ```bash
 cargo fmt
 ```
-The demo in Postman can be viewed via below youtube video
-
-[![https://youtu.be/6MxkaiwGSuQ](https://i.ytimg.com/vi/L8tWKqSMKUI/hqdefault.jpg)](https://youtu.be/6MxkaiwGSuQ)

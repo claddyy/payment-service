@@ -1,0 +1,17 @@
+[workspace]
+members = [ 
+        "common",
+        "db",
+        "db/migration",
+        "db/entity",
+        "http",
+]
+
+default-members = [
+        "common",
+        "db",
+        "db/migration",
+        "db/entity",
+        "http"
+]
+resolver = "2"
